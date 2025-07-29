@@ -1,11 +1,11 @@
-// Función para saludar al usuario
+// Funcion para saludar al usuario
 function saludarUsuario() {
   let nombre = prompt("¡Hola! Bienvenido a Félix 3D. ¿Cómo te llamás?");
   alert("¡Hola " + nombre + " Soy FeliBot, tu asistente de impresión 3D.");
   return nombre;
 }
 
-// Función para mostrar productos y devolver el precio
+// Funcion para mostrar productos y devolver el precio
 function cotizarProducto() {
   let producto = prompt(
     "¿Qué producto te interesa cotizar?\n1. Maceta ($10800)\n2. Llavero ($1500)\n3. Mate ($7000)\n(Escribí el número)"
@@ -30,7 +30,7 @@ function cotizarProducto() {
   return { precio, nombreProducto };
 }
 
-// Función principal que controla la conversación
+// Funcion principal que controla la conversación
 function iniciarSimulador() {
   let cliente = saludarUsuario();
 
@@ -65,5 +65,5 @@ function iniciarSimulador() {
   }
 }
 
-// Iniciar simulación
+//Iniciar simulación
 iniciarSimulador();
